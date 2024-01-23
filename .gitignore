@@ -1,0 +1,50 @@
+# Archivos de configuración específicos del entorno
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Archivos generados durante el desarrollo
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+
+# Entorno virtual (si utilizas virtualenv o similar)
+venv/
+env/
+
+# Archivos de configuración local
+.env
+
+# Archivos de caché y sesiones de Django
+*.log
+*.log.*
+logs/
+*.pyc
+
+# Archivos temporales y directorios
+*.swp
+*~
+__init__.pyc
+
+# Archivos de configuración de IDE
+.idea/
+.vscode/
+
+# Dependencias de Python (si no utilizas Pipenv o similar)
+__pycache__/
+*.pyc
+
+# Archivos generados por pruebas y cobertura de código
+.coverage
+.coverage.*
+htmlcov/
+
+# Otros archivos generados
+.DS_Store
+Thumbs.db
+
+# Migraciones de la app
+/blog/migrations/
+
