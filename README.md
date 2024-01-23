@@ -1,4 +1,4 @@
-# Objetivo inicial: Blog App Starter
+# 😊 Objetivo inicial: Blog App Starter
 
 Este repositorio sirve como un punto de partida para crear una aplicación de blog utilizando Django y Docker. Proporciona una estructura de proyecto básica con configuraciones predefinidas y un entorno Dockerizado para facilitar el desarrollo y la implementación.
 
@@ -30,7 +30,7 @@ Este proyecto está diseñado como un punto de partida para el desarrollo de apl
 
 ## Pasos de Construcción 🛠️
 **1. Crear un entorno virtual con**: 
-    ```python -m virtualenv portfolio1```
+    ```bash python -m virtualenv portfolio1```
 
 **2.Activar el entorno virtual con:** ```\portfolio1\Scripts\activate``` 
 
@@ -56,3 +56,13 @@ Este proyecto está diseñado como un punto de partida para el desarrollo de apl
 **10. Ahora, podrás ver el mensaje:**
 ¡Hola, esta es la página principal del blog!
 
+# **11. Detener la ejecución del contenedor y servidor🛑**
+Tenemos que estar en la terminal que nos muestra los mensajes del servidor, tomada por el contenedor. Tan solo con el comando ctrl + c se detiene la ejecución de nuestro contenedor.
+
+Una forma alternativa es con el siguiente comando en la terminal del host:
+
+```$ docker stop prueba_django```
+
+O también puede ser con docker-compose: Tenemos que estar en la carpeta que contiene el archivo docker-compose.yml y hacer:
+
+```$ docker-compose down```
